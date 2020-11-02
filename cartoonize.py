@@ -8,7 +8,7 @@ import argparse
 import numpy as np
 from tqdm import tqdm
 from datetime import datetime
-from style_transfer.cartoongan import cartoongan
+from cartoongan import cartoongan
 
 
 STYLES = ["shinkai", "hayao", "hosoda", "paprika"]
